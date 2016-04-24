@@ -1,0 +1,16 @@
+1, Environment setup:
+python require
+
+2, How to use file process tool:
+2.1 the tool is to process a file, to output the total count of number and total sum pf all number in the input file
+2.2 the usage is: python file_process.py path_to_file
+example: python file_process.py test.txt
+
+3, Performance test:
+3.1, test to the respond time if user need to parse a large file
+3.2, test concurrent call the program, to check the respond time, and system CPU/Memory usage to find out any performance impact
+
+4, How to run the automation test:
+python -m unittest Q1-unit-test
+
+
